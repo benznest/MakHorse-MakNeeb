@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyBoardGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <boardWidth>8</boardWidth>
+  <boardHeight>8</boardHeight>
+  <typeBoard>Mak Horse</typeBoard>
+  <rowItem>1</rowItem>
+  <flag_AI>false</flag_AI>
+  <listTableBoard>
+    <string>0,0,1,1</string>
+    <string>0,2,1,1</string>
+    <string>0,4,1,1</string>
+    <string>0,6,1,1</string>
+    <string>7,1,2,1</string>
+    <string>7,3,2,1</string>
+    <string>7,5,2,1</string>
+    <string>7,7,2,1</string>
+  </listTableBoard>
+  <playerStart>1</playerStart>
+  <TextColorHtmlSection1>Black</TextColorHtmlSection1>
+  <TextColorHtmlSection2>White</TextColorHtmlSection2>
+</MyBoardGame>

@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DraughtMaster.AI_item" Collapsed="true">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggCgEgISAwoQAQAAJEQBhQASBAEgAAKBAwQACAgBLAA=</HashCode>
+      <FileName>AI\AI_itemBoardHorse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.AI_itemBoardNeeb" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gIBUEgARwQsgAAFgDBAgUYASAECwFgKCkACAAAQBAEA=</HashCode>
+      <FileName>AI\AI_itemBoardNeeb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.AIBoard" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AI\AIBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.AIBoardHorse" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABogCQQMACQIAABAAQQATggAgQAAAAEAAAQAAAAA=</HashCode>
+      <FileName>AI\AIBoardHorse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.AIBoardNeeb" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABABggCAQMATQAAABACQQACAgIQAAAQACAAAAAAAoA=</HashCode>
+      <FileName>AI\AIBoardNeeb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.AIBoradSection" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAAAAAAAAAAAAIABEARAAgAAAAAQAA=</HashCode>
+      <FileName>AI\AIBoardSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.Board" Collapsed="true">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GGAWgawUAvIwIQi4OAPfBUVOQCUiwxYOGGECQWmAQOg=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.BoardHorse" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgQhBAASBQsAABYCAEn5AG5CkCApBAAAAQCQAAiAAMA=</HashCode>
+      <FileName>BoardHorse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.BoardNeeb" Collapsed="true">
+    <Position X="2.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EABwAAABQQgAAARzDUBhFNYIQFACFAIDARCAAAgAAMA=</HashCode>
+      <FileName>BoardNeeb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.BoardSection" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAABAAAAAFAAAAAAShAQAUkkBEFAATAAgBAAgAAQI=</HashCode>
+      <FileName>BoardSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.DataGridViewLoadSave" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAABAAAAAAAIA=</HashCode>
+      <FileName>DataGridViewLoadSave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormChooseStarter" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAEAACACABAAEACCQAASBAAAAAKFAAgBAQAAkAA=</HashCode>
+      <FileName>Form\FormChooseStarter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormCredits" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAACAACAAABAAIDCIAAACAAAEAAAAAAAAAQAABAI=</HashCode>
+      <FileName>Form\FormCredits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormEndGame" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAEABACAAAASCAAAAAAAAAEBAQAAAAA=</HashCode>
+      <FileName>Form\FormEndGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormHelp" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAABAAACCAAAACAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Form\FormHelp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormHowToPlay" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAACACABAAACCAEAACAAQAAEAQAACBgQAABQA=</HashCode>
+      <FileName>Form\FormHowToPlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormLoadSaveMenu" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ApDCIWCQgLCxKRCISKDYAqgWBAOAkAyCACCAASSSQAE=</HashCode>
+      <FileName>Form\FormLoadSaveMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormMainMenu" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCCAAKYADAABAEAAACAAAASBQCIQABAAAAEAQACAAA=</HashCode>
+      <FileName>Form\FormMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormMenuInGame" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJACAAEIACAABAEAAACAAACSDAAQAAAAACEAAQAAAAA=</HashCode>
+      <FileName>Form\FormMenuInGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormMoreMap" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIhCAWCQgCSBABAISKDAACgGBAAAkAyCACAAASSAQAI=</HashCode>
+      <FileName>Form\FormMoreMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormPlay12x12" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LRAADCBBMD4RADACAcDAAwDCwACggAADyP//HwYPKCw=</HashCode>
+      <FileName>Form\FormPlay12x12.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormPlay8x8" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>PRAAACBBADIQABAAAACAAwACAACgwgAASADgHwQPKBA=</HashCode>
+      <FileName>Form\FormPlay8x8.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormSavePage" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAUAADAAABAAQACgACIaBAAAAAAAAEAAAQAAAAA=</HashCode>
+      <FileName>Form\FormSavePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormSelectBoardSize" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIjiIWCQgLKxCRCISKDYAKgmBCMAkAyCACCAATSSQAE=</HashCode>
+      <FileName>Form\FormSelectBoardSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormSetting" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>f4BAQIHAQGAhEBEAADCIAgCS5B8AAEDgXySIAQACZIA=</HashCode>
+      <FileName>Form\FormSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormToolGenerateMap" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRgAEBFgSoKABAQACmgkTgCAIAAABHkECAABSAEgCI=</HashCode>
+      <FileName>Form\FormToolGenerateMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.Item" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwIAAAAEAAABQBAAAAAIQAAAAAAAAAQAAgYEQAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.MyBoardGame" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAEkBEMAhAJyQCAxQAiBBCkAACBggIJFKizQAhSTAAk=</HashCode>
+      <FileName>MyBoardGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.PreviewBoard" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABoAUQAgAAASSAFIACEAAAAAEAARAAAoIAEAQASAgI=</HashCode>
+      <FileName>PreviewBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.Program" Collapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.Tutorial" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAABAEAQCAAAAAAAAQAAAAAEAgAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Tutorial\Tutorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.TutorialMakHorse" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAgAAAAAAAAAAAIAAAAAAAwAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tutorial\TutorialMakHorse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.TutorialMakNeeb" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAgAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tutorial\TutorialMakNeeb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.Properties.Resources" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEBCQDABAACBAAAIAAAJEAAEEQgEAAAACAAAAAAARII=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.Properties.Settings" Collapsed="true">
+    <Position X="19" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormTutorial.MakHorse.FormTutorialMakHorse" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABJAAIAIgCAIABAkACDAFQACABACAAAIAAHgHwYQAAA=</HashCode>
+      <FileName>Tutorial\MakHorse\FormTutorialMakHorse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DraughtMaster.FormTutorial.MakNeeb.FormTutorialMakNeeb" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJJAAIAIgCAIABAkACDAFQACABACAAAIAAHgHwYQAAA=</HashCode>
+      <FileName>Tutorial\MakNeeb\FormTutorialMakNeeb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DraughtMaster.type" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

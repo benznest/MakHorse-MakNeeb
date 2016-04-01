@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A41351ED-A08D-479A-8509-B42155232BCD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DraughtMaster</RootNamespace>
+    <AssemblyName>DraughtMaster</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>cf6590d1</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroModernUI.1.3.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.3.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.3.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AI\AIBoard.cs" />
+    <Compile Include="AI\AIBoardHorse.cs" />
+    <Compile Include="AI\AIBoardNeeb.cs" />
+    <Compile Include="AI\AIBoardSection.cs" />
+    <Compile Include="AI\AI_itemBoardHorse.cs" />
+    <Compile Include="AI\AI_itemBoardNeeb.cs" />
+    <Compile Include="Board.cs" />
+    <Compile Include="BoardHorse.cs" />
+    <Compile Include="BoardNeeb.cs" />
+    <Compile Include="BoardSection.cs" />
+    <Compile Include="DataGridViewLoadSave.cs" />
+    <Compile Include="Form\FormChooseStarter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormChooseStarter.Designer.cs">
+      <DependentUpon>FormChooseStarter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormCredits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormCredits.Designer.cs">
+      <DependentUpon>FormCredits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormEndGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormEndGame.Designer.cs">
+      <DependentUpon>FormEndGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHelp.Designer.cs">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHowToPlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHowToPlay.Designer.cs">
+      <DependentUpon>FormHowToPlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormLoadSaveMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormLoadSaveMenu.Designer.cs">
+      <DependentUpon>FormLoadSaveMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormMainMenu.Designer.cs">
+      <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormMenuInGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormMenuInGame.Designer.cs">
+      <DependentUpon>FormMenuInGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormMoreMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormMoreMap.Designer.cs">
+      <DependentUpon>FormMoreMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormPlay12x12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormPlay12x12.Designer.cs">
+      <DependentUpon>FormPlay12x12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormPlay8x8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormPlay8x8.Designer.cs">
+      <DependentUpon>FormPlay8x8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormSavePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormSavePage.Designer.cs">
+      <DependentUpon>FormSavePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormSelectBoardSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormSelectBoardSize.Designer.cs">
+      <DependentUpon>FormSelectBoardSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormSetting.Designer.cs">
+      <DependentUpon>FormSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormToolGenerateMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormToolGenerateMap.Designer.cs">
+      <DependentUpon>FormToolGenerateMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\MakHorse\FormTutorialMakHorse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tutorial\MakHorse\FormTutorialMakHorse.Designer.cs">
+      <DependentUpon>FormTutorialMakHorse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\MakNeeb\FormTutorialMakNeeb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tutorial\MakNeeb\FormTutorialMakNeeb.Designer.cs">
+      <DependentUpon>FormTutorialMakNeeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs" />
+    <Compile Include="MyBoardGame.cs" />
+    <Compile Include="PreviewBoard.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tutorial\Tutorial.cs" />
+    <Compile Include="Tutorial\TutorialMakHorse.cs" />
+    <Compile Include="Tutorial\TutorialMakNeeb.cs" />
+    <EmbeddedResource Include="Form\FormChooseStarter.resx">
+      <DependentUpon>FormChooseStarter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormCredits.resx">
+      <DependentUpon>FormCredits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormEndGame.resx">
+      <DependentUpon>FormEndGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHelp.resx">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHowToPlay.resx">
+      <DependentUpon>FormHowToPlay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormLoadSaveMenu.resx">
+      <DependentUpon>FormLoadSaveMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormMainMenu.resx">
+      <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormMenuInGame.resx">
+      <DependentUpon>FormMenuInGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormMoreMap.resx">
+      <DependentUpon>FormMoreMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormPlay12x12.resx">
+      <DependentUpon>FormPlay12x12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormPlay8x8.resx">
+      <DependentUpon>FormPlay8x8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormSavePage.resx">
+      <DependentUpon>FormSavePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormSelectBoardSize.resx">
+      <DependentUpon>FormSelectBoardSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormSetting.resx">
+      <DependentUpon>FormSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormToolGenerateMap.resx">
+      <DependentUpon>FormToolGenerateMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tutorial\MakHorse\FormTutorialMakHorse.resx">
+      <DependentUpon>FormTutorialMakHorse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tutorial\MakNeeb\FormTutorialMakNeeb.resx">
+      <DependentUpon>FormTutorialMakNeeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Asset\logo.png" />
+    <Content Include="Asset\super_walker_green.png" />
+    <Content Include="Asset\super_walker_red.png" />
+    <Content Include="Asset\walker_green.png" />
+    <Content Include="Asset\walker_red.png" />
+    <None Include="Resources\title1.png" />
+    <None Include="Resources\title.png" />
+    <None Include="Resources\ex_makneeb_wb.png" />
+    <None Include="Resources\ex_makneeb.png" />
+    <None Include="Resources\ex_makhorse_wb.png" />
+    <None Include="Resources\ex_makhorse.png" />
+    <None Include="Resources\test52.png" />
+    <None Include="Resources\test51.png" />
+    <None Include="Resources\walker_super_6.gif" />
+    <None Include="Resources\walker_super_5.gif" />
+    <None Include="Resources\walker_super_4.gif" />
+    <None Include="Resources\walker_super_3.gif" />
+    <None Include="Resources\walker_super_2.gif" />
+    <None Include="Resources\walker_super_1.png" />
+    <None Include="Resources\walker_super_0.png" />
+    <None Include="Resources\walker_6.gif" />
+    <None Include="Resources\walker_5.gif" />
+    <None Include="Resources\walker_4.gif" />
+    <None Include="Resources\walker_3.gif" />
+    <None Include="Resources\walker_2.gif" />
+    <None Include="Resources\walker_1.png" />
+    <None Include="Resources\walker_0.png" />
+    <None Include="Resources\walker_super_b_yellow.gif" />
+    <None Include="Resources\walker_super_b_violet.gif" />
+    <None Include="Resources\walker_super_b_red.gif" />
+    <None Include="Resources\walker_super_b_green.gif" />
+    <None Include="Resources\walker_super_b_blue.gif" />
+    <None Include="Resources\walker_b_yellow.gif" />
+    <None Include="Resources\walker_b_violet.gif" />
+    <None Include="Resources\walker_b_red.gif" />
+    <None Include="Resources\walker_b_green.gif" />
+    <None Include="Resources\walker_b_blue.gif" />
+    <None Include="Resources\item_kill.wav" />
+    <None Include="Resources\item_walk2.wav" />
+    <None Include="Resources\item_walk.wav" />
+    <None Include="Resources\super_walker_red.png" />
+    <None Include="Resources\super_walker_green.png" />
+    <None Include="Resources\walker_red.png" />
+    <None Include="Resources\walker_green.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
